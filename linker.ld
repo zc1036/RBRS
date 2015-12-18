@@ -37,6 +37,7 @@ SECTIONS
 		*(COMMON)
 		*(.bss)
 		*(.bootstrap_stack)
+        *(.page_tables)
 	}
 
 	/* The compiler may produce other sections, by default it will put them in
